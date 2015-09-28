@@ -1,0 +1,54 @@
+figcaption {
+	font-size: 12px;
+	width: 100%;
+}
+
+figure {
+	width: 160px;
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 35px;
+
+}
+
+li {
+	display: inline;
+	font-family: Helvetica;
+	padding: 25px;
+	color: indianred;
+	border: 1px double indianred;
+	border-radius: 35%;
+	background-color: lemonchiffon;
+	font-weight: bold;
+	margin-bottom: 6px;
+
+}
+
+li:hover{
+	background-color: gold;
+}
+
+h1 {
+	font-family: Helvetica;
+	font-weight: bold;
+	color: indianred;
+	margin-left: 45px;
+}
+
+div#search-results{
+	margin-top: 40px;
+}
+
+@media screen and (max-width:625px) {
+
+	li {
+		padding: 9px;
+	}
+	
+}
