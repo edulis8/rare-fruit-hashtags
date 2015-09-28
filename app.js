@@ -12,6 +12,9 @@ var goldenberries = "goldenberries";
 $('li:nth-child(1)').click(function(event) {
 	$('#search-results').empty();
 	showFruit("tamarillo");
+	showFruit("tamarillos");
+	showFruit("treetomato");
+	showFruit("tomatedearbol");
 });
 
 
@@ -19,12 +22,14 @@ $('li:nth-child(2)').click(function(event) {
 	$('#search-results').empty();
 	showFruit(goldenberries);
 	showFruit("goldenberry")
+	showFruit("capegooseberries");
+	showFruit("capegooseberry");
 });
 
 $('li:nth-child(3)').click(function(event) {
 	$('#search-results').empty();
-	showFruit("babaco");
 	showFruit("babacopapaya")
+	showFruit("babaco");
 	
 });
 
@@ -32,12 +37,10 @@ $('li:nth-child(4)').click(function(event) {
 	$('#search-results').empty();
 	showFruit("tazziberry");
 	showFruit("tazziberries");
+	showFruit("chileanguava")
 	showFruit("ugni")
+
 });
-
-
-
-
 
 
 

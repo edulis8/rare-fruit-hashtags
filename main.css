@@ -1,3 +1,8 @@
+html {
+	background-color: ghostwhite;
+	
+}
+
 figcaption {
 	font-size: 12px;
 	width: 100%;
@@ -8,6 +13,16 @@ figure {
 	display: inline-block;
 	text-align: justify;
 	vertical-align: top;
+	/*background-color: hsla(338, 22%, 63%, 0.19);*/
+	border-radius: 18px;
+	padding: 1px;
+
+
+}
+
+img {
+	border: 1px dotted darkslategray;
+	border-radius: 18px;
 }
 
 ul {
@@ -49,6 +64,24 @@ div#search-results{
 
 	li {
 		padding: 9px;
+
+
+	}
+
+	h1{
+		font-size: 30px;
+	}
+	
+}
+
+@media screen and (max-width:492px) {
+
+	li {
+		padding: 2px;
+	}
+
+	h1{
+		font-size: 22px;
 	}
 	
 }
