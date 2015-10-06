@@ -70,7 +70,7 @@ function showFruit(fruit){
 function shortenText(text){
 	var newStr='';
 
-	for (var i = 0; i < 140 ; i++) {
+	for (var i = 0; i < 340 ; i++) {
 		if(text[i]){
 			newStr+= text[i];
 		}
